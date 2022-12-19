@@ -1,64 +1,70 @@
+# Getting Started with Create React App
 
-# Travelocity-clone-website
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This was a collaborative project made by 4 members Executed in 5 days. We worked on Travelocity Clone website. Which is an online travel agency owned by Expedia Group. We added functionality like Signup, Login, Search Hotels & Cars, add to cart, and Payment Gateway. We used React, Redux, JavaScript, CSS, and Material UI to build this website.
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-- [@bhargavi35](https://github.com/bhargavi35)
-- [@641krishna](https://github.com/641krishna)
-- [@damanjot6767](https://github.com/damanjot6767)
-- [@UdayCreative](https://github.com/UdayCreative)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#  Deploy Link 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  Netlify: https://thriving-hamster-345ef4.netlify.app/
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## Tech Stack Used : -
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- #### Languages
-  - `React JS`
-  - `Redux`
-  - `HTML`
-  - `CSS`
-  - `Material UI`
-  - `JavaScript `
-  - `Local Storage`
-  
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### _Following are the Screenshots for the reference_
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Landing Page**
+### `npm run eject`
 
-  ![Landing Page](https://miro.medium.com/max/786/1*544cRzRQkdy-th2eC8lXpA.jpeg)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **Log-in Page**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-  ![Landing Page](https://miro.medium.com/max/786/1*Rj6LpBn6y0Sq43QrdqRJnw.jpeg)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **Payment Page**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-  ![Landing Page](https://miro.medium.com/max/786/1*iHR-JZqErj3sJZrvRR_JCQ.jpeg)
+## Learn More
 
-- **Hotels Page**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-  ![Landing Page](https://miro.medium.com/max/786/1*zRiDrm73Ejl657yDjtyA8Q.jpeg)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **Cars Page**
+### Code Splitting
 
-  ![Landing Page](https://miro.medium.com/max/786/1*q9Jak0Zkhv9QNd59WVfHuQ.jpeg)
-  
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### About Project
+### Analyzing the Bundle Size
 
-> We did this project within 4-5 days in our unit-5 construct week. We worked on backend parts with includes various types of libraries into it and we have also added database for our project so user and course details will be saved and can be used accordingly. We have also added some cool functionality in our courses page where you can filter the courses according to your choice and user can Signup and Login to buy the products.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-Blog:
-https://medium.com/@chellabhargavi2002/collaborative-project-at-masai-school-travelocity-clone-a00d39e6d814
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
