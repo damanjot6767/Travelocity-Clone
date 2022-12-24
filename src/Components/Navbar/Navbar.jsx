@@ -8,6 +8,7 @@ import Header from "./Header";
 
 export function Navbar() {
     const dispatch = useDispatch();
+    const userName = useSelector((state) => state.Auth);
     const handleSignOut = () => {
         dispatch(logOut());
     }

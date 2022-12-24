@@ -100,10 +100,11 @@ export default function ScrollableTabsButtonForce() {
     // eslint-disable-next-line
   }, [query])
 
+  
   const handleSearchByQuery = () => {
     setIsSearching(false);
 
-    axios.get(`https://travelocity.onrender.com/hotel?q=${query}&_limit=50`).then((res) => {
+    axios.get(`${process.env.hotels_url}?q=${query}&_limit=50`).then((res) => {
       setSearchQueryResult(res.data);
     }).catch((err) => {
       console.log(err);
@@ -163,9 +164,7 @@ export default function ScrollableTabsButtonForce() {
       endDate: endDate,
       trevelersRoomCnt: trevelersRoomCnt,
     }
-    // console.log(obj)
     localStorage.setItem('inputsData', JSON.stringify(obj));
-    // navigate("/hotels");
   }
 
   const handleAdulTrevelersCnt = (e, val) => {
